@@ -23,6 +23,24 @@ namespace WpfApp1
         public MainWindow()
         {
             InitializeComponent();
+            label1.Content = 0;
+
+        }
+      
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            
+            int licznik = Convert.ToInt32(label1.Content);
+            licznik++;
+            label1.Content = licznik;   
+       
+
+        }
+
+        private void Button_Click_1(object sender, RoutedEventArgs e)
+        {
+
         }
     }
 }

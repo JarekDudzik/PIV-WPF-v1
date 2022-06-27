@@ -57,6 +57,7 @@ namespace WpfApp2
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
+            
 
             IsPlayerTurn ^= true;
             Counter++;
@@ -72,7 +73,7 @@ namespace WpfApp2
 
             if (CheckIfPlayerWon())
             {
-
+                Counter = 9;
             }
 
         }

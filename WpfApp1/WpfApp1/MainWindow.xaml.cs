@@ -30,7 +30,7 @@ namespace WpfApp1
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-            
+            //licznik
             int licznik = Convert.ToInt32(label1.Content);
             licznik++;
             label1.Content = licznik;   
